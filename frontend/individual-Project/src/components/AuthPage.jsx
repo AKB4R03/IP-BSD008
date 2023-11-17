@@ -68,13 +68,6 @@ const AuthPage = (props) => {
                     submit
                   </button>
                 </form>
-                <a
-                  href="#"
-                  class="mt-4 block text-sm text-center font-medium text-rose-600 hover:underline focus:outline-none focus:ring-2 focus:ring-rose-500"
-                >
-                  {" "}
-                  Forgot your password?{" "}
-                </a>
               </div>
             </div>
           </div>
