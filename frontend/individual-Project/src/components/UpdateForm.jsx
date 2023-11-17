@@ -115,7 +115,7 @@ const UpdateForm = () => {
                   <select
                     id="type"
                     name="TypeId"
-                    required
+                    // required
                     className=" mt-1 w-full bg-[#FFC5C5] border-b-2 border- px-0 py-1 placeholder:text-transparent border-[#860A35] focus:outline-none text-[#860A35]"
                     onChange={handleOnChange}
                     // value={input.TypeId}

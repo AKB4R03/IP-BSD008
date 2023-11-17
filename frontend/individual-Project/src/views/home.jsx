@@ -1,5 +1,5 @@
-import Card from "../components/card";
-import Image from "../components/image";
+import Card from "../Components/card";
+import Image from "../Components/image";
 
 const Home = () => {
   return (
