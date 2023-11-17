@@ -19,7 +19,7 @@ const UpdateForm = () => {
           Authorization: `Bearer ${accToken}`,
         };
 
-        const { data } = await axios.get(`http://localhost:3000/advice/${id}`, {
+        const { data } = await axios.get(`https://akbar03.site/advice/${id}`, {
           headers,
         });
         // console.log(data);
@@ -52,7 +52,7 @@ const UpdateForm = () => {
         Authorization: `Bearer ${accToken}`,
       };
 
-      await axios.put(`http://localhost:3000/advice/${id}`, input, { headers });
+      await axios.put(`https://akbar03.site/advice/${id}`, input, { headers });
 
       console.log("sukes update");
       console.log(input);

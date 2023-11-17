@@ -15,7 +15,7 @@ const Quote = () => {
         };
         console.log(headers);
 
-        const { data } = await axios.get("http://localhost:3000/quote", {
+        const { data } = await axios.get("https://akbar03.site/quote", {
           headers,
         });
 

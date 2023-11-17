@@ -16,7 +16,7 @@ const LoginPage = () => {
       console.log(codeResponse);
 
       const { data } = await axios.post(
-        "http://localhost:3000/google-login",
+        "https://akbar03.site/google-login",
         null,
         {
           headers: {
@@ -45,7 +45,7 @@ const LoginPage = () => {
     try {
       e.preventDefault();
 
-      const { data } = await axios.post("http://localhost:3000/login", input);
+      const { data } = await axios.post("https://akbar03.site/login", input);
       console.log("suksess login");
       localStorage.setItem("access_token", data.access_token);
 

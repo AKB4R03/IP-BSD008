@@ -24,7 +24,7 @@ const RegisterForm = () => {
     try {
       e.preventDefault();
 
-      await axios.post("http://localhost:3000/register", input);
+      await axios.post("https://akbar03.site/register", input);
       console.log("suksess register");
 
       navigate("/");

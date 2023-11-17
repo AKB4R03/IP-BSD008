@@ -13,7 +13,7 @@ const AuthPage = (props) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/chat",
+        "https://akbar03.site/chat",
         {
           username: value,
         },

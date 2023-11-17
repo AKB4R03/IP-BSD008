@@ -15,7 +15,7 @@ const ReadPage = () => {
           Authorization: `Bearer ${accToken}`,
         };
 
-        const { data } = await axios.get(`http://localhost:3000/advice/${id}`, {
+        const { data } = await axios.get(`https://akbar03.site/advice/${id}`, {
           headers,
         });
         console.log(data.data.Type);

@@ -15,7 +15,7 @@ const MyCard = () => {
         };
         // console.log(headers);
 
-        const { data } = await axios.get("http://localhost:3000/myAdvice", {
+        const { data } = await axios.get("https://akbar03.site/myAdvice", {
           headers,
         });
 
@@ -37,13 +37,13 @@ const MyCard = () => {
         Authorization: `Bearer ${accToken}`,
       };
 
-      await axios.delete(`http://localhost:3000/advice/${id}`, {
+      await axios.delete(`https://akbar03.site/advice/${id}`, {
         headers,
       });
 
       // console.log(headers);
 
-      const { data } = await axios.get("http://localhost:3000/myAdvice", {
+      const { data } = await axios.get("https://akbar03.site/myAdvice", {
         headers,
       });
 

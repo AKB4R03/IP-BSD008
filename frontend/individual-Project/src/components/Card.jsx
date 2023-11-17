@@ -15,7 +15,7 @@ const Card = () => {
         };
         // console.log(headers);
 
-        const { data } = await axios.get("http://localhost:3000/advice", {
+        const { data } = await axios.get("https://akbar03.site/advice", {
           headers,
         });
 

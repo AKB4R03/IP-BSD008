@@ -20,7 +20,7 @@ const AddForm = () => {
           Authorization: `Bearer ${accToken}`,
         };
 
-        const { data } = await axios.get("http://localhost:3000/type", {
+        const { data } = await axios.get("https://akbar03.site/type", {
           headers,
         });
         setType(data.data);
@@ -52,7 +52,7 @@ const AddForm = () => {
         Authorization: `Bearer ${accToken}`,
       };
 
-      await axios.post("http://localhost:3000/advice", input, { headers });
+      await axios.post("https://akbar03.site/advice", input, { headers });
 
       console.log("sukes add");
       navigate("/home");
